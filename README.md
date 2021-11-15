@@ -29,3 +29,11 @@ $environments = 'shared', 'dev', 'prod'
 $environments | % { New-AzResourceGroup -Name "rg-$( $workloadName )-$( $_ )" -Location $location }
 ```
 
+# CLONE REPO
+
+```
+git clone https://ja@dev.azure.com/augp/AUGP-DO2/_git/AUGP-DO
+cd AUGP-DO
+
+git checkout -b ft_lab
+```
