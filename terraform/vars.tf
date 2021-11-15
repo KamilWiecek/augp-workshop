@@ -25,5 +25,5 @@ variable "tenant_id" {
 
 variable "sandbox_sub_id" {
   type = string
-  default = "aad861cc-eb75-42fd-9f9e-29f1aa3e1465"
+  default = ""
 }
